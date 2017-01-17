@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "testPOPController.h"
 
+
+
+@interface ViewController : UIViewController <UIPopoverPresentationControllerDelegate>
+
+- (IBAction)showPopOverVC:(id)sender;
+- (IBAction)showPopOverStoryboard:(id)sender;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *popUpButton;
 
 @end
 

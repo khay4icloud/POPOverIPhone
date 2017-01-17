@@ -10,9 +10,12 @@
 		6B01A9321E2D508100277950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B01A9311E2D508100277950 /* main.m */; };
 		6B01A9351E2D508100277950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B01A9341E2D508100277950 /* AppDelegate.m */; };
 		6B01A9381E2D508100277950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B01A9371E2D508100277950 /* ViewController.m */; };
-		6B01A93B1E2D508100277950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B01A9391E2D508100277950 /* Main.storyboard */; };
 		6B01A93D1E2D508100277950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B01A93C1E2D508100277950 /* Assets.xcassets */; };
 		6B01A9401E2D508100277950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B01A93E1E2D508100277950 /* LaunchScreen.storyboard */; };
+		6B01A9491E2D531D00277950 /* testPOPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B01A9481E2D531D00277950 /* testPOPController.m */; };
+		6B01A94B1E2D555900277950 /* popOver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B01A94A1E2D555900277950 /* popOver.xib */; };
+		6B01A94D1E2D96E400277950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B01A94C1E2D96E400277950 /* Main.storyboard */; };
+		6B01A94F1E2E90DF00277950 /* popUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B01A94E1E2E90DE00277950 /* popUpStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +25,14 @@
 		6B01A9341E2D508100277950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6B01A9361E2D508100277950 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6B01A9371E2D508100277950 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6B01A93A1E2D508100277950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B01A93C1E2D508100277950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B01A93F1E2D508100277950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B01A9411E2D508100277950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B01A9471E2D531D00277950 /* testPOPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testPOPController.h; sourceTree = "<group>"; };
+		6B01A9481E2D531D00277950 /* testPOPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testPOPController.m; sourceTree = "<group>"; };
+		6B01A94A1E2D555900277950 /* popOver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popOver.xib; sourceTree = "<group>"; };
+		6B01A94C1E2D96E400277950 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6B01A94E1E2E90DE00277950 /* popUpStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = popUpStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +69,11 @@
 				6B01A9341E2D508100277950 /* AppDelegate.m */,
 				6B01A9361E2D508100277950 /* ViewController.h */,
 				6B01A9371E2D508100277950 /* ViewController.m */,
-				6B01A9391E2D508100277950 /* Main.storyboard */,
+				6B01A9471E2D531D00277950 /* testPOPController.h */,
+				6B01A9481E2D531D00277950 /* testPOPController.m */,
+				6B01A94A1E2D555900277950 /* popOver.xib */,
+				6B01A94C1E2D96E400277950 /* Main.storyboard */,
+				6B01A94E1E2E90DE00277950 /* popUpStoryboard.storyboard */,
 				6B01A93C1E2D508100277950 /* Assets.xcassets */,
 				6B01A93E1E2D508100277950 /* LaunchScreen.storyboard */,
 				6B01A9411E2D508100277950 /* Info.plist */,
@@ -137,9 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B01A94D1E2D96E400277950 /* Main.storyboard in Resources */,
+				6B01A94B1E2D555900277950 /* popOver.xib in Resources */,
+				6B01A94F1E2E90DF00277950 /* popUpStoryboard.storyboard in Resources */,
 				6B01A9401E2D508100277950 /* LaunchScreen.storyboard in Resources */,
 				6B01A93D1E2D508100277950 /* Assets.xcassets in Resources */,
-				6B01A93B1E2D508100277950 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B01A9381E2D508100277950 /* ViewController.m in Sources */,
+				6B01A9491E2D531D00277950 /* testPOPController.m in Sources */,
 				6B01A9351E2D508100277950 /* AppDelegate.m in Sources */,
 				6B01A9321E2D508100277950 /* main.m in Sources */,
 			);
@@ -159,14 +173,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B01A9391E2D508100277950 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B01A93A1E2D508100277950 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B01A93E1E2D508100277950 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
